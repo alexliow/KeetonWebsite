@@ -1,0 +1,125 @@
+
+form{
+    margin: 0 auto;
+    height: auto;
+    width:30%;
+    box-shadow: 5px 5px 6px 6px #606060;
+    padding-left: 4.5em;
+    padding-top: 2em;
+    padding-bottom:2em;
+    font-family:Forum;
+    background: rgba(248,248,255, .8);
+}
+
+#logo{
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    width: 20em;
+    margin-top: 5%;
+    }
+
+p{
+    font-family: Edelsans;
+    text-align: center;
+}
+
+#hog{
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.bubble{
+    height:20em;
+    width:20em;
+    background: rgba(33, 171, 217, .9);
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-family: forum;
+    color:white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.bubble1{
+    height:20em;
+    width:20em;
+    background: rgba(237, 209, 100, .9);
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-family: forum;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.bubble p{
+    max-width: 15em;
+    display: inline-block;
+    padding-top: 40%;
+}
+
+.bubble1 p{
+    max-width: 15em;
+    display: inline-block;
+    padding-top: 40%;
+    
+}
+
+
+
+.name{
+    display: inline;
+    text-align: center;
+    position: relative;
+    left: 7em;
+    width: auto;
+    border-bottom: thick solid rgb(237, 209, 100);
+    font-family: Dense;
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.container{
+    margin: 0px auto;
+    width:52%;
+    padding: 0 0 0 0;
+    height: auto;  
+    
+}
+
+body{
+    margin: 0 0 0 0; 
+}
+
+html{
+    margin: 0 0 0 0;
+    background:url(../images/fishies.jpg) no-repeat center center fixed;
+}
+
+span{
+    font-size: 2em;
+}
+
+#footer{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Forum;
+    text-align: center;
+}

@@ -1,0 +1,248 @@
+@font-face
+{
+font-family: Dense;
+src: url(../fonts/dense.otf);
+}
+
+body{
+    width: 100%;
+}
+/* fix nav bar */
+
+#logo{
+    width: 95%;
+    height: auto;
+    margin-bottom: 1%;
+}
+
+#navigation{
+    width: 90%;
+    position: relative;
+    left: -7%;
+
+}
+
+nav ul{
+    list-style: none;
+}
+
+/* THIS CLASS WAS WRITTEN IN TO HEADER.PHP*/
+.categ{ 
+    width: 100%;
+    height: 60px;
+    padding: 1%;
+    background-color: #4b545f;
+    border-radius: 30px;
+    text-align: center;
+    margin: 1%;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Dense;
+    font-size: 270%;
+    
+}
+
+ul>li:selected>ul{display:block}
+
+nav ul ul li{
+    display: none;
+}
+
+
+#Footer{
+display: none;
+}
+
+#face{margin-left:15%;}
+
+/* general formatting */
+
+h2{
+   font-size: 300%;
+   color:#071b93;
+   font-family:Dense;
+   position: relative;
+   line-height: 2.0em;
+   
+}
+
+
+h3, p, form{
+    font-family: Didot;
+    text-align:justify;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    line-height: 1.6em;
+    font-size: 130%;
+
+    
+}
+
+form{
+    font-size: 120%;
+}
+h3{
+	font-size: 150%; 
+	font-family: Dense;
+}
+
+
+/*index */
+#mission{
+   width: 100%;
+   display: inline-block;
+    margin-top: 6%;
+}
+
+#mission p{
+    margin-top: 2%;
+   width: 80%;
+   margin: 0 auto;
+   line-height: 1.3em;
+   font-size: 120%;
+   padding: 5%;
+   color: #a60822;
+   font-weight: 800;
+   border-bottom: 3px groove black;
+   border-top: 3px groove black;
+   text-align: center;
+   font-family: Didot;
+}
+
+#about{
+   width: 100%;
+   line-height: 2.0em;
+   height: 200px;
+   margin-top: 3%;
+   
+}
+
+#about p,h2{
+   width: 80%;
+   margin: 0 auto;
+}
+
+/* resize */
+
+#keetonoutlook{
+    width: 95%;
+    height: auto;
+    position: relative;
+    left: 2%:
+}
+
+#barn{
+    width: 95%;
+    height: auto;
+    position: relative;
+    left: 2%:
+}
+
+#cal{
+    width:300px;
+    margin-left: 10%;
+    overflow: hidden;
+}
+
+/* THIS CLASS WAS WRITTEN INTO INDEX.PHP */ 
+.moveleft{
+    margin-right: 1%;
+}
+#keetonportrait{
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+    margin: 3%;
+    margin-left: 10%;
+    margin-top: 0%;
+    
+}
+
+#seal{height: auto;
+	width: 35%;
+	float: left;
+	margin: 0 auto;
+	margin-left: 10%;
+	margin-top: 0;
+	margin-right: 3%;
+	
+}
+
+#night{
+   width: 95%;
+    height: auto;
+    position: relative;
+    left: 2%;
+}
+
+#johnson{ width: 95%;
+    height: auto;
+    position: relative;
+    left: 2%;}
+
+textarea{
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+
+#peoplenav{
+    margin-left: 10%;
+}
+.houseprof{
+    border-radius: 100%;
+    margin-left: 10%;
+    
+}
+.people{
+    margin-top: 5%;
+}
+
+
+.people p{
+    font-size: 35%;
+    color: black;
+    width: 90%;
+    margin: 0;
+}
+
+.people img{
+    border-radius: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.people2{
+    margin-top: 5%;
+}
+.people2 p{
+    font-size: 40%;
+    color: black;
+    width: 90%;
+    margin: 0;
+}
+
+
+.peoplenav{
+    width: 40%;
+    height: auto;
+}
+
+/* get rid of stuff */
+
+#down img{
+    display: none;  
+}
+
+
+
+/*SlideShow*/
+#background_cycler{display:none; visibility: hidden;} 
+#background_cycler img{display:none; visibility: hidden; position: absolute; top: 0; left: 0; z-index: -100;} 
+#background_cycler img.active{display:none; visibility: hidden;}

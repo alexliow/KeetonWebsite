@@ -1,0 +1,972 @@
+#header{
+    background-color: black;
+}
+
+div{
+    display: inline-block;
+}
+
+@font-face
+{
+font-family: Dense;
+src: url(../fonts/dense.otf);
+}
+
+body{
+   overflow: scroll;
+   margin: 0
+}
+/*Nav Bar*/
+nav {
+	text-align: center;
+font-size: 200%;
+font-family: Dense;
+text-decoration: none;
+position: absolute;
+top: 10px;
+margin: 0px auto; 
+z-index: 100;
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+}
+
+
+nav a:visited {color: #757575;}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+
+	}
+
+
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left;
+		
+	}
+		nav ul li:hover {
+			background: #4b545f;
+			background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+			background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+			background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+		
+		}
+			nav ul li:hover a {
+				color: #fff;
+			}
+		
+		nav ul li a {
+			display: block; padding: 25px 40px;
+			color: #757575; text-decoration: none;
+		}
+			
+		
+	nav ul ul {
+		background: #5f6975; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+		nav ul ul li {
+			float: none; 
+			border-top: 1px solid #6b727c;
+			border-bottom: 1px solid #575f6a; position: relative;
+		}
+			nav ul ul li a {
+				padding: 15px 40px;
+				color: #fff;
+			}	
+				nav ul ul li a:hover {
+					background: #4b545f;}
+#navigation a {color: #757575;}
+#navigation li ul li a {color: white;}
+#navigation a:hover{color: white;}
+#navigation li:hover {color: white;}
+#navigation li:hover a{ Color: white;}
+
+					
+#logo{
+   position:relative;
+   left:-30px;
+   height: 70px;
+   width: 260px;
+
+}
+
+#logolink, #logolink a {padding: 0;
+	margin: 0;
+}
+
+#logolink:hover{
+	background: #efefef;
+}
+	
+
+/*SlideShow*/
+#background_cycler{padding:0;margin:0;width:100%;height:95%;z-index:-9} 
+#background_cycler img{position:absolute;left:0;top:0;width:100%;height:95%;z-index:-8; } 
+#background_cycler img.active{position:relative;z-index:-7}
+
+
+/*General Formating*/
+
+h2{
+   font-size: 300%;
+   color:#071b93;
+   font-family:Dense;
+   position: relative;
+   left: -2%;
+   line-height: 2.0em;
+}
+
+p{
+   font-size: 120%;
+   font-family: Didot;
+   margin-top: 3%;
+   text-align: justify;
+  
+}
+
+h3, p{
+    text-align:justify;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1%;
+    line-height: 2.0em;
+
+    
+}
+h3{
+	font-size: 150%; 
+	font-family: Dense;
+}
+
+
+.content{
+    width: 100%;
+   
+}
+
+#down{
+    position: fixed;
+    bottom: -10px;
+    right: -160px;
+    opacity: 20%;
+    z-index: 1000;
+}
+
+#down img{
+    width: 50%;
+    height: 50%;
+}
+
+#wrapper1 {margin: 5%;
+}
+/*Home Page Content*/
+
+
+
+#scroll{
+    color: grey;
+    size: 60%;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    opacity:1%;
+}
+
+#scroll:hover{
+    color: black;
+    font-weight: 800;
+}
+#mission{
+   width: 100%;
+   display: inline-block;
+
+}
+
+#mission p{
+   width: 60%;
+   margin: 0 auto;
+   line-height: 2.0em;
+   font-size: 150%;
+   padding: 5%;
+   color: #a60822;
+   font-weight: 800;
+   border-bottom: 3px groove black;
+   border-top: 3px groove black;
+   text-align: center;
+   font-family: Didot;
+}
+
+#about{
+   position: relative;
+   width: 100%;
+   line-height: 2.0em;
+   height: 200px;
+   margin-top: 5%;
+   
+}
+
+#about p,h2{
+   width: 60%;
+   margin: 0 auto;
+
+   
+}
+
+ #about p{height: 250px;}
+
+#events1 p, h2, h3{
+   width: 60%;
+   margin: 0 auto;
+   line-height: 1.5em;
+}
+
+
+
+#cal{
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-top: 2%;
+    border:0;  
+}
+/*The House */
+
+#wrapper{
+	position: relative;
+	top: 600px;
+	margin: 5%;
+	margin-bottom: 40%;
+	}
+
+#keetonoutlook{
+    height:630px;
+    width:100%;
+    position: absolute;
+    top:0;
+    margin-bottom: 3%;
+    z-index: -1;
+}
+
+#keetonportrait{
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+    margin: 3%;
+    margin-left: 20%;
+    margin-top: 0%;
+    
+}
+
+#seal{height: auto;
+	width: 25%;
+	float: left;
+	margin: 0 auto;
+	margin-left: 20%;
+	margin-top: 0;
+	margin-right: 3%;
+	float: left;
+}
+
+
+.section{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.filler{ margin-bottom: 5%;}
+
+/* The People */
+
+#barn{
+    height: 725px;
+    width:100%;
+    float: left;
+	margin-top: -15%;
+	left:0;
+	right: 0;
+}
+#heading{
+    font-family: Dense;
+    font-size: 8em;
+    position: relative;
+    top: -440px;
+    color: #f5f5f5;
+}
+#heading2{font-family: Dense;
+	font-size: 8em;
+	position: relative;
+	top: -500px;
+	color: #f5f5f5;
+}
+
+	
+#houseprof{
+    border-radius: 100%;
+    position: relative;
+    top: 11em;
+    left: 20em;
+    border-style:solid;
+	border-width:20px;
+	border-color: #f2f1f1;
+	width: 15%;
+	height: 15%;
+}
+#pumpkin{margin:5%;
+	border-radius: 20%;
+	height: 50%;
+	width: 60%;
+	margin-top:0;
+	margin-bottom:5%;
+}
+
+.sheryl{
+    border-radius: 100%;
+    border-style:solid;
+	border-width:20px;
+	border-color: #f2f1f1;
+    position: relative;
+    left: 20em;
+    top: 11em;
+    width:15%;
+    height:15%
+}
+.grad{ border-radius: 100%;
+	border-style:solid;
+	border-width:20px;
+	border-color: #f2f1f1;
+	position: relative;
+	top: 11em;
+	left: 20em;
+	width:15%;
+	height: 15%;
+}
+.people .grad2{
+    border-radius: 100%;
+    border-style:solid;
+	border-width:20px;
+	border-color: #f2f1f1;
+	position: relative;
+	top: 11em;
+	left: 20em;
+	width:15%;
+	height: 15%;
+}
+#peopleimage{ border-radius: 100%;
+	border-style:solid;
+	border-width:20px;
+	border-color: #f2f1f1;
+	position: relative;
+	top: 20em;
+	left: 10em;
+}
+.description1{
+    position:relative;
+	top: -150px;
+    font-family: Dense;
+   	left: 5em;
+    font-size: 3em;
+}
+#houseprof2 {
+    position: relative;
+    right: 650px;
+    top: 420px;
+    margin: 10%;
+}
+.intro1{
+    position: relative;
+    text-align: justify;
+    left: 10em;
+    color: black;
+    width: 40%;
+    top: -150px;
+}
+
+
+p.intro1{position: relative;
+font-family: "Didot";
+font-size: 120%;}
+
+
+.people .fellowinformation{
+    position: relative;
+    text-align: justify;
+    top: -150px;
+    left: 10em;
+    color: black;
+    width: 40%;
+}
+
+p.fellowinformation{position: relative;
+font-family: "Didot";
+font-size: 120%;}
+
+#HiddenTextContainer1 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer2 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer3 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer4 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer5 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer6 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer7 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer8 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer9 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer10 p{
+  position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer11 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer12 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer13 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer14 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer15 p{
+    position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer16 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer17 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer18 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer19 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer20 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer21 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+#HiddenTextContainer22 p{
+   position: relative;
+    top: -8em;
+    font-family: "Didot";
+    font-size: 120%;
+    text-align: justify;
+    color: black;
+    line-height: 200%;
+    width: 64%;
+    margin-left:20%;
+}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+.staffdiv{
+    display:inline-block;
+    width: 100%;
+    text-align: center;
+}
+.staffheader{
+    font-family: Myriad Pro;
+    width: 40%;
+}
+
+.staff{margin-bottom:15%;}
+
+.education{
+    font-size: 28px;
+    position: relative;
+    font-family: Dense;
+    text-align: justify;
+    color: rgb(233,195,36);
+}
+#chef{
+    font-size: 35px;
+    position: relative;
+    font-family: Dense;
+    text-align: justify;
+    color: rgb(233,195,36);
+}
+.description2{
+    position:relative;
+	top: -150px;
+    font-family: Dense;
+   	left: 5em;
+    font-size: 3em;
+}
+
+/*#description2{
+	position: relative;
+	top: 145px;
+	font-family: Dense;
+	font-size: 3em;
+	width: 110%;
+	
+}*/
+
+#intro2{position: relative;
+    font-family: "Myriad Pro";
+    font-size: 38%;
+    text-align: justify;
+    top: 150px;
+    left: -22em;
+    color: black;
+    width:110%;
+    margin: 10%;
+    padding-bottom: 10%;
+}
+
+.people2 {margin-bottom: 20%;
+}
+
+
+#mainpeople{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0;
+}
+
+#mainpeople p{
+    font-size: 120%;
+   font-family: Didot;
+   margin-top: 3%;
+   margin-bottom: 5%;
+   text-align: justify;
+  }
+
+#peoplenav{
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    margin:0 auto;
+    margin-left: 10%;
+}
+
+img.peoplenav{
+    float:left;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    border-radius: 100%;
+    width: 11em;
+    height: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-left: 1em;
+}
+img.peoplenav:hover {
+	cursor:pointer;
+    margin-top:2.5em;
+    -moz-box-shadow:    0px 10px 5px 6px #ccc;
+  -webkit-box-shadow: 0px 10px 5px 6px #ccc;
+  box-shadow:         0px 10px 5px 6px #ccc;
+}
+
+/* The Program */
+
+#night{
+   height: 645px;
+   width: 100%;
+   margin-top: -10%;
+}
+
+.email {font-family: Dense;
+	color: #CC0000;
+	margin: 10%;
+	width: 80%;
+	margin-top: 2%;
+}
+
+#heading3{
+   font-family: Dense;
+   font-size: 20em;
+   position: relative;
+   top: -2em;
+   right: 0;
+   color: #f5f5f5;
+}
+
+h4{
+   font-family: Dense;
+   font-size: 5em;
+   margin-left: 4%;
+   margin-bottom: 3%; 
+}
+
+
+
+.program{
+   width: 100%;
+   margin: 0 auto;
+   color: black;
+   margin-bottom: 5%;
+}
+
+
+form{
+   width: 55%;
+   margin: 0 auto;
+   padding: 1%;
+   line-height: 2.0em;
+   font-family: "Myriad Pro";
+}
+#johnson{
+   height:auto;
+   width: 100%;
+   margin-top: -8%;
+}
+
+h5{
+   font-family:Dense;
+   font-size: 9em;
+   position: relative;
+   top: -2.7em;
+   color: #efefef;
+}
+
+/*PROGRAM==>EVENTS*/
+
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: none;
+cursor: auto;
+}
+
+/* Contact */
+
+#contactwrap{
+    position: relative;
+    top: 120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#contactwrap h2{
+    line-height: 1.0em;
+    padding-bottom: 2%;
+    position: relative;
+    right: 10%
+}
+
+#contactwrap p{
+    text-align: none;
+}
+#emergency{
+    float: right;
+    width: 45%;
+    vertical-align: top;
+    margin: 0px;
+}
+
+
+#office, #suggestbox{
+    float: left;
+    width: 55%;
+    margin-bottom:5%; 
+    
+}
+
+#other-contact{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 13%;
+    
+}
+
+/*CHANGES*/
+#footercontainer{
+    background-color: black;
+    width: 100%;
+    z-index: 50000;
+    display: block;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    
+}
+#footheaders{
+    display: inline-block;
+     text-align: center;
+     width: 75%;
+     padding-top:3%;
+}
+.minicontain{
+    width: 33%;
+    vertical-align: top;
+}
+.foottitle{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+#footercontent{
+    display: inline-block;
+     text-align: center;
+     width: 75%;
+     padding-bottom: 3%;
+     margin-top: 2%;
+}
+.directory{
+    color: #bcbbbb;
+    font-size:1em;
+    text-align: center;
+    
+}
+minicontain2{
+    width:45%;
+    display:inline-block;
+    text-align: center;
+    
+}
+
+#facebookbutton{
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    border-radius: 100%;
+}
+#facebookbutton:hover{
+    opacity: 5%;
+    cursor:pointer;
+    margin-top:-1em;
+    -moz-box-shadow:    0px 10px 5px 6px black;
+    -webkit-box-shadow: 0px 10px 5px 6px black;
+    box-shadow:         0px 10px 5px 6px black;
+}
+
+img.minicontain{
+    margin-top:10%;
+}
+.officeinfo{
+    line-height: 1.0em;
+    font-family: Myriad Pro;
+    font-size: 100%;
+    color: #bcbbbb;
+    display: block;
+    position: relative;
+    text-align: center;
+    text-align: justify;
+    padding-left: 17%;
+}
+.directory a{
+    color:#bcbbbb;
+    font-family: Myriad Pro;
+}
+.directory a:hover{
+    color: white;
+}
+
+#copyright p{
+	width: 100%;
+	color: grey;
+	font-size: 60%;
+	text-align: center;
+}
